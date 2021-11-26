@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.main{
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 100px;
+    box-shadow: -3px 3px 10px 3px rgba(0, 0, 0, 0.308);
+    display: flex;
+    align-items: center;
+}
+
+.user > img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.user > p{
+    position: absolute;
+    font-size: 15px;
+    display: inline;
+    margin-left: 115px;
+    margin-top: 55px;
+}
+
+#globo{
+    width: 15px;
+}
+
+.aside{
+    margin-top: 30px;
+}
+
+.aside > h1{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.usuario{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#username{
+    height: 30px;
+    width: 220px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    font-weight: 700;
+}
+
+.senha{
+    margin-left: 30px;
+}
+
+#senha{
+    height: 30px;
+    width: 220px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    font-weight: 700; 
+}
+
+#botao{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    height: 40px;
+    width: 220px;
+    border: none;
+    font-weight: 700;
+    background-color: rgb(228, 228, 228);
+}
+
+#botao:hover{
+    background-color: rgb(252, 107, 107);
+    transition: 0.4s ease-in-out;
+}
+
+.log > img{
+    display: flex;
+    height: 500px;
+    width: 850px;
+    margin-top: 70px;
+    margin-right: 80px;
+    box-shadow: 6px 3px 10px 3px rgba(0, 0, 0, 0.308);
+}
+
+.footer{
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(179, 178, 178);
+}
